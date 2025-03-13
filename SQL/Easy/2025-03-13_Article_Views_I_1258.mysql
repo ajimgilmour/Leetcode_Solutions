@@ -1,0 +1,13 @@
+# Problem: Article Views I
+# Question ID: 1258
+# Difficulty: Easy
+# Solved Date: 2025-03-13
+# LeetCode URL: https://leetcode.com/problems/article-views-i/
+
+// https://leetcode.com/problems/article-views-i
+
+# Write your MySQL query statement below
+SELECT DISTINCT author_id as id
+FROM Views
+WHERE author_id = viewer_id
+ORDER BY id
