@@ -1,0 +1,10 @@
+# Problem: Invalid Tweets
+# Question ID: 1827
+# Difficulty: Easy
+# Solved Date: 2025-03-13
+# LeetCode URL: https://leetcode.com/problems/invalid-tweets/
+
+// https://leetcode.com/problems/invalid-tweets
+
+# Write your MySQL query statement below
+select tweet_id from Tweets where length(content) > 15;
