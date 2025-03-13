@@ -1,0 +1,11 @@
+# Problem: Big Countries
+# Question ID: 595
+# Difficulty: Easy
+# Solved Date: 2025-03-13
+# LeetCode URL: https://leetcode.com/problems/big-countries/
+
+// https://leetcode.com/problems/big-countries
+
+select name, population, area
+from World
+where area >= '3000000' or population >= '25000000';
