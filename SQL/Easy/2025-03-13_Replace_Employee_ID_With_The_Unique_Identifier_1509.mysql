@@ -1,0 +1,12 @@
+# Problem: Replace Employee ID With The Unique Identifier
+# Question ID: 1509
+# Difficulty: Easy
+# Solved Date: 2025-03-13
+# LeetCode URL: https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/
+
+// https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier
+
+# Write your MySQL query statement below
+SELECT unique_id, name
+FROM Employees
+LEFT JOIN EmployeeUNI on Employees.id = EmployeeUNI.id;
