@@ -1,0 +1,13 @@
+# Problem: Recyclable and Low Fat Products
+# Question ID: 1908
+# Difficulty: Easy
+# Solved Date: 2025-03-13
+# LeetCode URL: https://leetcode.com/problems/recyclable-and-low-fat-products/
+
+// https://leetcode.com/problems/recyclable-and-low-fat-products
+
+# Write your MySQL query statement below
+SELECT product_id
+FROM Products
+WHERE low_fats = 'Y' and recyclable = 'Y'
+
