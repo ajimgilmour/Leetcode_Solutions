@@ -1,0 +1,13 @@
+# Problem: Product Sales Analysis I
+# Question ID: 1153
+# Difficulty: Easy
+# Solved Date: 2025-03-13
+# LeetCode URL: https://leetcode.com/problems/product-sales-analysis-i/
+
+// https://leetcode.com/problems/product-sales-analysis-i
+
+# Write your MySQL query statement below
+SELECT product_name, year, price
+FROM Sales
+LEFT JOIN Product on Product.product_id = Sales.product_id
+
