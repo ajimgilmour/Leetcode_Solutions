@@ -1,0 +1,14 @@
+# Problem: Project Employees I
+# Question ID: 1161
+# Difficulty: Easy
+# Solved Date: 2025-03-16
+# LeetCode URL: https://leetcode.com/problems/project-employees-i/
+
+// https://leetcode.com/problems/project-employees-i
+
+# Write your MySQL query statement below
+SELECT P.project_id, ROUND(SUM(E.experience_years) / COUNT(E.employee_id), 2) AS average_years
+FROM Project P
+JOIN Employee E
+ON E.employee_id = P.employee_id
+GROUP BY P.project_id
