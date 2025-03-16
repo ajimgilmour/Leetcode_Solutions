@@ -1,0 +1,12 @@
+# Problem: Number of Unique Subjects Taught by Each Teacher
+# Question ID: 2495
+# Difficulty: Easy
+# Solved Date: 2025-03-16
+# LeetCode URL: https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/
+
+// https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher
+
+# Write your MySQL query statement below
+SELECT teacher_id, COUNT(DISTINCT(subject_id)) AS cnt
+FROM Teacher
+GROUP BY teacher_id
