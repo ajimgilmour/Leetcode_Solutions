@@ -1,0 +1,13 @@
+# Problem: Classes More Than 5 Students
+# Question ID: 596
+# Difficulty: Easy
+# Solved Date: 2025-03-16
+# LeetCode URL: https://leetcode.com/problems/classes-more-than-5-students/
+
+// https://leetcode.com/problems/classes-more-than-5-students
+
+# Write your MySQL query statement below
+SELECT class
+FROM Courses
+GROUP BY class
+HAVING COUNT(student) >= 5;
