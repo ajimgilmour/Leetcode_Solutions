@@ -1,0 +1,12 @@
+# Problem: Patients With a Condition
+# Question ID: 1670
+# Difficulty: Easy
+# Solved Date: 2025-03-26
+# LeetCode URL: https://leetcode.com/problems/patients-with-a-condition/
+
+// https://leetcode.com/problems/patients-with-a-condition
+
+# Write your MySQL query statement below
+select patient_id, patient_name, conditions
+from Patients
+where conditions LIKE 'DIAB1%' OR conditions LIKE '% DIAB1%';
